@@ -37,22 +37,14 @@ AlgorithmTrading/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repository-name.git
-   cd your-repository-name
+   git clone https://github.com/mszy123/Matt-Algorithm-Trading-Bot.git
+   cd Matt-Algorithm-Trading-Bot
    ```
 
-2. Create and activate a virtual environment (optional):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
+2. Install the required packages:
+   
 
-3. Install the required packages:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. Create a `.env` file in the root directory and add your Alpaca API credentials:
+3. Create a `.env` file in the root directory and add your Alpaca API credentials:
    ```
    API_KEY=your_alpaca_api_key
    API_SECRET=your_alpaca_api_secret
